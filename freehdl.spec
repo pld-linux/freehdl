@@ -33,6 +33,11 @@ URL:		http://freehdl.seul.org/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
+FreeHDL is an project aiming to develop VHDL simulator with following capabilities:
+ * Has a graphical waveform viewer.
+ * Has a source level debugger.
+ * Is VHDL-93 compliant.
+ * Is of commercial quality. (on par with, say, V-System - it'll take us a while to get there, but that should be our aim)
 
 %prep
 %setup -q
