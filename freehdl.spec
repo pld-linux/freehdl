@@ -44,7 +44,7 @@ FreeHDL is an project aiming to develop VHDL simulator with following capabiliti
 #%setup -q -c -T
 #%setup -q -n %{name}
 #%setup -q -n %{name}-%{version}.orig -a 1
-#%patch0 -p1
+#%%patch0 -p1
 
 # undos the source
 #find '(' -name '*.php' -o -name '*.inc' ')' -print0 | xargs -0 %{__sed} -i -e 's,\r$,,'
